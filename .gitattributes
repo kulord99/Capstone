@@ -1,0 +1,2 @@
+Capstone_Unity_Test/Library/PackageCache/com.unity.burst@1.8.2/.Runtime/libburst-llvm-14.dylib.so filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
