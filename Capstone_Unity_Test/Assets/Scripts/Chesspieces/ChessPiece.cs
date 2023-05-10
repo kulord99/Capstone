@@ -18,6 +18,8 @@ public class ChessPiece : MonoBehaviour
     public int team;
     public int currentX;
     public int currentY;
+    public int currentAtk;
+    public int currentHp;
     public ChessPieceType type;
 
     private Vector3 desiredPosition;
@@ -44,6 +46,10 @@ public class ChessPiece : MonoBehaviour
         r.Add(new Vector2Int(4, 4));
 
         return r;
+    }
+    public virtual SpecialMove GetSpecialMoves(ref ChessPiece[,] board, ref List<Vector2Int[]> moveList, ref List<Vector2Int> availableMoves)
+    {
+        return SpecialMove.None;
     }
     public virtual void SetPosition(Vector3 position, bool force = false)
     {
