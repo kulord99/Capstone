@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public enum SpecialMove
 {
@@ -21,6 +22,8 @@ public class Chessboard : MonoBehaviour
     [SerializeField] private float deathSpacing = 0.3725f;
     [SerializeField] private float dragOffset = 1.0f;
     [SerializeField] private GameObject victoryScreen;
+    [SerializeField] private GameObject BlackUI;
+    [SerializeField] private GameObject WhiteUI;
 
 
     [Header("Prefabs & Materials")]
@@ -69,6 +72,14 @@ public class Chessboard : MonoBehaviour
         {
             // Get the indexes of the tiles i've hit
             Vector2Int hitPosition = LookupTileIndex(info.transform.gameObject);
+
+            if (chessPieces[hitPosition.x, hitPosition.y] != null)
+            {
+                UnDisplayAtkHp();
+                DisplayAtkHp(hitPosition.x, hitPosition.y);
+            }
+            else
+                UnDisplayAtkHp();
 
             // If we're hovering a tile after not hovering any tile
             if (currentHover == -Vector2Int.one)
@@ -358,6 +369,63 @@ public class Chessboard : MonoBehaviour
         Application.Quit();
     }
 
+    // Show Atk&HP
+    private void DisplayAtkHp(int x, int y)
+    {
+        int type = 0;
+        if (chessPieces[x, y].type == ChessPieceType.Pawn)
+        {
+            type = 0;
+        }
+
+        if (chessPieces[x, y].type == ChessPieceType.Rook)
+        {
+            type = 1;
+        }
+
+        if (chessPieces[x, y].type == ChessPieceType.Knight)
+        {
+            type = 2;
+        }
+
+        if (chessPieces[x, y].type == ChessPieceType.Bishop)
+        {
+            type = 3;
+        }
+
+        if (chessPieces[x, y].type == ChessPieceType.Queen)
+        {
+            type = 4;
+        }
+
+        if (chessPieces[x, y].type == ChessPieceType.King)
+        {
+            type = 5;
+        }
+        if(chessPieces[x, y].team == 0)
+        {
+            WhiteUI.SetActive(true);
+            WhiteUI.transform.GetChild(type).gameObject.SetActive(true);
+        }
+        else
+        {
+            BlackUI.SetActive(true);
+            BlackUI.transform.GetChild(type).gameObject.SetActive(true);
+        }
+    }
+    private void UnDisplayAtkHp()
+    {
+        for(int i=0; i<6; i++)
+        {
+            BlackUI.transform.GetChild(i).gameObject.SetActive(false);
+            WhiteUI.transform.GetChild(i).gameObject.SetActive(false);
+        }
+
+        BlackUI.SetActive(false);
+        WhiteUI.SetActive(false);
+    }
+
+
     // Special Moves
     private void ProcessSpecialMove()
     {
@@ -453,8 +521,8 @@ public class Chessboard : MonoBehaviour
                         CheckMate(0);
 
                     deadBlacks.Add(cp);
-                    ocp.SetScale(Vector3.one * deathSize);
-                    ocp.SetPosition(
+                    cp.SetScale(Vector3.one * deathSize);
+                    cp.SetPosition(
                         new Vector3(-1 * tileSize, yOffset, 8 * tileSize)
                         - bounds
                         + new Vector3(tileSize / 2, 0, tileSize / 2)
@@ -467,6 +535,7 @@ public class Chessboard : MonoBehaviour
                 else
                 {
                     isWhiteTurn = !isWhiteTurn;
+                    moveList.Add(new Vector2Int[] { previousPosition, new Vector2Int(x, y) });
                     return false;
                 }
             }
@@ -498,8 +567,8 @@ public class Chessboard : MonoBehaviour
                         CheckMate(0);
 
                     deadWhites.Add(cp);
-                    ocp.SetScale(Vector3.one * deathSize);
-                    ocp.SetPosition(
+                    cp.SetScale(Vector3.one * deathSize);
+                    cp.SetPosition(
                         new Vector3(8 * tileSize, yOffset, -1 * tileSize)
                         - bounds
                         + new Vector3(tileSize / 2, 0, tileSize / 2)
@@ -512,6 +581,7 @@ public class Chessboard : MonoBehaviour
                 else
                 {
                     isWhiteTurn = !isWhiteTurn;
+                    moveList.Add(new Vector2Int[] { previousPosition, new Vector2Int(x, y) });
                     return false;
                 }
             }
