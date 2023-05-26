@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public enum SpecialMove
@@ -24,6 +25,10 @@ public class Chessboard : MonoBehaviour
     [SerializeField] private GameObject victoryScreen;
     [SerializeField] private GameObject BlackUI;
     [SerializeField] private GameObject WhiteUI;
+    [SerializeField] public TextMeshProUGUI BlackAtk;
+    [SerializeField] public TextMeshProUGUI BlackHp;
+    [SerializeField] public TextMeshProUGUI WhiteAtk;
+    [SerializeField] public TextMeshProUGUI WhiteHp;
 
 
     [Header("Prefabs & Materials")]
@@ -280,7 +285,7 @@ public class Chessboard : MonoBehaviour
 
         if (chessPieces[x, y].type == ChessPieceType.King)
         {
-            chessPieces[x, y].currentAtk = 10;
+            chessPieces[x, y].currentAtk = 8;
             chessPieces[x, y].currentHp = 1;
         }
     }
@@ -406,11 +411,15 @@ public class Chessboard : MonoBehaviour
         {
             WhiteUI.SetActive(true);
             WhiteUI.transform.GetChild(type).gameObject.SetActive(true);
+            WhiteAtk.text = chessPieces[x, y].currentAtk.ToString();
+            WhiteHp.text = chessPieces[x, y].currentHp.ToString();
         }
         else
         {
             BlackUI.SetActive(true);
             BlackUI.transform.GetChild(type).gameObject.SetActive(true);
+            BlackAtk.text = chessPieces[x, y].currentAtk.ToString();
+            BlackHp.text = chessPieces[x, y].currentHp.ToString();
         }
     }
     private void UnDisplayAtkHp()

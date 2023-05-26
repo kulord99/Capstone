@@ -1,0 +1,704 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 32702 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/user/CapstoneDesign/Capstone/Capstone_Unity_Test
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60595
+Successfully changed project path to: C:/Users/user/CapstoneDesign/Capstone/Capstone_Unity_Test
+C:/Users/user/CapstoneDesign/Capstone/Capstone_Unity_Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16264] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 3404886024 [EditorId] 3404886024 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TFMLG6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16264] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 3404886024 [EditorId] 3404886024 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TFMLG6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 109.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/CapstoneDesign/Capstone/Capstone_Unity_Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006985 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (593ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (433ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006232 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\CapstoneDesign\Capstone\Capstone_Unity_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\CapstoneDesign\Capstone\Capstone_Unity_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1138ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4892 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.8 MB). Loaded Objects now: 5347.
+Memory consumption went from 198.6 MB to 197.8 MB.
+Total: 3.186000 ms (FindLiveObjects: 0.396100 ms CreateObjectMapping: 0.310400 ms MarkObjects: 2.167000 ms  DeleteObjects: 0.311700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 442340.857719 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_Bricks_01_v1_BC.png
+  artifactKey: Guid(035c63cd87b9c25458e302b2ce079c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_Bricks_01_v1_BC.png using Guid(035c63cd87b9c25458e302b2ce079c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f55c43f56ee712db2460f31e4a84857') in 0.110844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_02_v2_BC.png
+  artifactKey: Guid(66cd8763ce78005489b2cc58ae5bce1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_02_v2_BC.png using Guid(66cd8763ce78005489b2cc58ae5bce1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e3923115c2de875938d357d86e8b2b') in 0.018236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_02_v1_MTSM.png
+  artifactKey: Guid(fa979e81dd0e3e34aadbb817c134a289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_02_v1_MTSM.png using Guid(fa979e81dd0e3e34aadbb817c134a289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5aa7f9b81593e1fbc621d73fbf8830') in 0.026937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_01_v1_MTSM.png
+  artifactKey: Guid(8ccae44b25428aa42ae7e2ffec60797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_01_v1_MTSM.png using Guid(8ccae44b25428aa42ae7e2ffec60797f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3489acd4ab275e9fd87824dabadde52c') in 0.019010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_02_v1_MTSM.png
+  artifactKey: Guid(b6b1967cde9bd074f9adafda58d0f81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_02_v1_MTSM.png using Guid(b6b1967cde9bd074f9adafda58d0f81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e78e49c6be9d833394f8b8a4b978a4f') in 0.019291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_WoodGeneric_v2_N.png
+  artifactKey: Guid(e627f5a5926c9734992b6c0108f182dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_WoodGeneric_v2_N.png using Guid(e627f5a5926c9734992b6c0108f182dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525dc158e4b9435aa53aa7e359a56058') in 0.045336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_02_N.png
+  artifactKey: Guid(df691db2828c90a4f883b4c7bbf417c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_02_N.png using Guid(df691db2828c90a4f883b4c7bbf417c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ee9cc6e5d7144285b0f2da3f9b3528') in 0.020525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_01_v2_BC.png
+  artifactKey: Guid(9a48a644eb400654887263a5f7062d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_01_v2_BC.png using Guid(9a48a644eb400654887263a5f7062d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fff59c7cc3431cf1993b6161243f25b') in 0.015581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_PROP_items_interior_02_BC.png
+  artifactKey: Guid(3afe98721e5d89e429d1dc8b74294b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_PROP_items_interior_02_BC.png using Guid(3afe98721e5d89e429d1dc8b74294b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96294d3f43a1baa1f00e72065c34685') in 0.015531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_WoodGeneric_v2_BC.png
+  artifactKey: Guid(af504994145442244bd80faa66414dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_WoodGeneric_v2_BC.png using Guid(af504994145442244bd80faa66414dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9248c60bff9f7ce477a381b916067e') in 0.015479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_02_v2_MTSM.png
+  artifactKey: Guid(f5d5e50f7bf99f444946ff6ca27d6345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_02_v2_MTSM.png using Guid(f5d5e50f7bf99f444946ff6ca27d6345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16aa802939d3e4e140f6bb6a057476c') in 0.018068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_02_v1_BC.png
+  artifactKey: Guid(deba35d7e4fccbd4b83a72384e2d7014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_02_v1_BC.png using Guid(deba35d7e4fccbd4b83a72384e2d7014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb47eabaf4bd8e07a3b32c3daa0eb6a0') in 0.016226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.760133 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Collision
+  artifactKey: Guid(105804fb1609f334e8399d1c4f8f4e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Collision using Guid(105804fb1609f334e8399d1c4f8f4e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82139189a956ba8f155c6d4c6b700c47') in 0.006006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046320 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_E_straight_01_Collision.fbx
+  artifactKey: Guid(443869d0b83d7ab4fb06ad82bb7575fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_E_straight_01_Collision.fbx using Guid(443869d0b83d7ab4fb06ad82bb7575fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc2086b26b32d65961072b41535de27') in 0.197087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.700744 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Column/MOD_Column_02_deco.fbx
+  artifactKey: Guid(027fba83c685b0e4bae1710bdf8c9369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Column/MOD_Column_02_deco.fbx using Guid(027fba83c685b0e4bae1710bdf8c9369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c0a263e36aee3d7c963d396c6278da') in 0.039060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.280959 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Floor/MOD_Floor_02_E_straight_med.fbx
+  artifactKey: Guid(a51a360a79448e24e9818441a9bd24fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Floor/MOD_Floor_02_E_straight_med.fbx using Guid(a51a360a79448e24e9818441a9bd24fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f9e7005bcdde788af27d75474dd26c') in 0.035811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.260880 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/Collision/SM_PROP_armchair_interior_01_Collision.fbx
+  artifactKey: Guid(e85ea7c6c3fdb11448bbcf8977dab2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/Collision/SM_PROP_armchair_interior_01_Collision.fbx using Guid(e85ea7c6c3fdb11448bbcf8977dab2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52462307d84ff7d258ff60b7ee040290') in 0.034672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.774593 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_CLR_blue.mat
+  artifactKey: Guid(961430b7ac8a5cb4fbd69cbcf79889f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_CLR_blue.mat using Guid(961430b7ac8a5cb4fbd69cbcf79889f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de310eabc650d36eb4c56cd6478613c') in 0.081131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_FX_steam_interior.mat
+  artifactKey: Guid(00bd5a297f9c2ee43bcbe85997465e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_FX_steam_interior.mat using Guid(00bd5a297f9c2ee43bcbe85997465e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248264ed8d558b8c78748c4ef594b252') in 0.121083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_FX_glow_interior.mat
+  artifactKey: Guid(00407e68e18f8c7419d7e339c8346e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_FX_glow_interior.mat using Guid(00407e68e18f8c7419d7e339c8346e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91cac1f200ffd1b9bf3e7014f553bb9') in 0.104187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksLong_01_v1.mat
+  artifactKey: Guid(1b45630ee8c6e5442ba9db60c013fc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksLong_01_v1.mat using Guid(1b45630ee8c6e5442ba9db60c013fc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8771ad1988ba5b004b87dc568414590f') in 0.027721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_PROP_plant_interior.mat
+  artifactKey: Guid(86d2962e5d664724c897dc837c80dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_PROP_plant_interior.mat using Guid(86d2962e5d664724c897dc837c80dff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f3b56c82fcf9c06e25a482475832a3') in 0.017247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.463506 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/ENV
+  artifactKey: Guid(e1b50ee51b723924baaa29e5c01836eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/ENV using Guid(e1b50ee51b723924baaa29e5c01836eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393c7af87a7e54a8a0089a93d3b862bc') in 0.001877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.467805 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/ENV/Railing
+  artifactKey: Guid(f735b4b30e30916489acdaf0bfe6dbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/ENV/Railing using Guid(f735b4b30e30916489acdaf0bfe6dbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3090e42e57f1eae591fb3aa66d176dcf') in 0.005829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075483 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/ENV/Railing/P_MOD_Railing_02_column.prefab
+  artifactKey: Guid(1dd423b8916891a458b0a39572b35b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/ENV/Railing/P_MOD_Railing_02_column.prefab using Guid(1dd423b8916891a458b0a39572b35b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6148e4459fdd6a8a183f26eda94028c5') in 0.026417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.061254 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/FX
+  artifactKey: Guid(385c148248c67c745b90f4162965569b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/FX using Guid(385c148248c67c745b90f4162965569b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e725184364dcd6cbd649bce628edbc') in 0.007173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069626 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/FX/P_FX_fire_v1_interior.prefab
+  artifactKey: Guid(163c33fc366658e41871152700d25ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/FX/P_FX_fire_v1_interior.prefab using Guid(163c33fc366658e41871152700d25ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd8c11d19faed7c31f42d188936277e') in 0.017660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/FX/P_FX_particle_glow.prefab
+  artifactKey: Guid(8eafd53e1bc396e47bf9571727306c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/FX/P_FX_particle_glow.prefab using Guid(8eafd53e1bc396e47bf9571727306c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ec52ae0b125531c56efe6e5565b2ef') in 0.016771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.317028 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/PROPS
+  artifactKey: Guid(b8273c97661a51e429055229908697b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/PROPS using Guid(b8273c97661a51e429055229908697b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e103d44a69bdf9690cdb2aab566304') in 0.005665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.248439 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/PROPS/Tables
+  artifactKey: Guid(1107122938c43cf48ab00559cff7b697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/PROPS/Tables using Guid(1107122938c43cf48ab00559cff7b697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45ddd7147a1d14b3b159e8e4e8b46d3') in 0.006861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040496 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/PROPS/Tables/P_PROP_desk_interior_01.prefab
+  artifactKey: Guid(68117dc2a8625b746a63e42af2bf88c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/PROPS/Tables/P_PROP_desk_interior_01.prefab using Guid(68117dc2a8625b746a63e42af2bf88c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da32dd5164c2e387516d8981f958a833') in 0.019844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/PROPS/Tables/P_PROP_table_interior_06.prefab
+  artifactKey: Guid(63ea854d263d93145bf736a9fc151441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/PROPS/Tables/P_PROP_table_interior_06.prefab using Guid(63ea854d263d93145bf736a9fc151441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2f6e2027c19c0788473966dedcb862') in 0.026871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 151.257646 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/ENV/Floor/P_MOD_Floor_02_E_straight_med.prefab
+  artifactKey: Guid(a3c1c638d746d8145b3777970677a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/ENV/Floor/P_MOD_Floor_02_E_straight_med.prefab using Guid(a3c1c638d746d8145b3777970677a1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb46083522b8b7003125efd35da481a9') in 0.026095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/ENV/Floor/P_MOD_Floor_02_O_straight_med.prefab
+  artifactKey: Guid(ac9a86385af3c7942a9eaf408cf71543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/ENV/Floor/P_MOD_Floor_02_O_straight_med.prefab using Guid(ac9a86385af3c7942a9eaf408cf71543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e7841481b508dbbb450a09ded5d7a8') in 0.030099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/ENV/Floor/P_MOD_Floor_02_O_straight_med_hole.prefab
+  artifactKey: Guid(de8beba88b559b0408a9ecf0a7239598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/ENV/Floor/P_MOD_Floor_02_O_straight_med_hole.prefab using Guid(de8beba88b559b0408a9ecf0a7239598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7712261b9f6dd5add2e471319536912a') in 0.027891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/ENV/Floor/P_MOD_Floor_02_E_straight_tiny.prefab
+  artifactKey: Guid(686617269a31b8741ac11c790132f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/ENV/Floor/P_MOD_Floor_02_E_straight_tiny.prefab using Guid(686617269a31b8741ac11c790132f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82da02b6b672b5485ef2f946a2abcdbf') in 0.023432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.078279 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS
+  artifactKey: Guid(3b3b1ab214cb0964c809d56bb08c21fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS using Guid(3b3b1ab214cb0964c809d56bb08c21fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aabd6bccffda5760ee3a1676f991020') in 0.001706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030845 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_armchair_interior_01.fbx
+  artifactKey: Guid(778b70a179e8d38499689975600a1a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_armchair_interior_01.fbx using Guid(778b70a179e8d38499689975600a1a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f23738243e476bca2b674288603fad') in 0.019573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_chair_interior_01.fbx
+  artifactKey: Guid(b0fab36193bb42d4bb2e29081f8ce2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_chair_interior_01.fbx using Guid(b0fab36193bb42d4bb2e29081f8ce2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a264b2fd969b2152126bc5144d85951') in 0.034556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bottle_interior_02.fbx
+  artifactKey: Guid(ab92e08eb81641543b1d5c9563d438a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bottle_interior_02.fbx using Guid(ab92e08eb81641543b1d5c9563d438a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5428111fff799a3d70826b03a5ca0dfa') in 0.025972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_birdcage_interior_01.fbx
+  artifactKey: Guid(fb7298a78e632b74fb0c457ec985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_birdcage_interior_01.fbx using Guid(fb7298a78e632b74fb0c457ec985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f9a70501e62e476978dc1254a319b9') in 0.065370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bottle_interior_01.fbx
+  artifactKey: Guid(12314f305130b8447ad6ff392ec3f58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bottle_interior_01.fbx using Guid(12314f305130b8447ad6ff392ec3f58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1a217b4185a253ea1a9c5545447a0f') in 0.022734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bread_interior_05.fbx
+  artifactKey: Guid(a83514cda4c2b134abd79e91a0792314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bread_interior_05.fbx using Guid(a83514cda4c2b134abd79e91a0792314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2570ca83539dca4d07c418b3e89e9e16') in 0.024846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_chair_interior_02.fbx
+  artifactKey: Guid(765d45360bed05647845f41cfca08c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_chair_interior_02.fbx using Guid(765d45360bed05647845f41cfca08c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f13705595a4347db1f812604eb48c10') in 0.035777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bed_interior_02.fbx
+  artifactKey: Guid(406fb7fe741fa0549a8c78b0e8599e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bed_interior_02.fbx using Guid(406fb7fe741fa0549a8c78b0e8599e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf358991dd0c6e4a300f4a2c5a084b3d') in 0.021883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_candle_interior_04.fbx
+  artifactKey: Guid(661f3951342f38d40a0b5f10adef9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_candle_interior_04.fbx using Guid(661f3951342f38d40a0b5f10adef9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7766d7961e6c6a92f417dafbcc111c83') in 0.024572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_book_interior_02.fbx
+  artifactKey: Guid(7a52ce07a53b3da49886fb7f2d1ef11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_book_interior_02.fbx using Guid(7a52ce07a53b3da49886fb7f2d1ef11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3db32942950d4b1e15f51a87b64fd5b') in 0.024377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_broom_interior.fbx
+  artifactKey: Guid(89fdf6b3918dc04418c4d3bf01bf9cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_broom_interior.fbx using Guid(89fdf6b3918dc04418c4d3bf01bf9cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9e8b78f8805232ebe282c4819e34f6') in 0.023244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bowl_interior_01.fbx
+  artifactKey: Guid(e46aaf18b7eba4f499af8dbf040546d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bowl_interior_01.fbx using Guid(e46aaf18b7eba4f499af8dbf040546d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c21fe89f0d15434d7ae9c79bdb27581') in 0.024082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bowl_interior_02.fbx
+  artifactKey: Guid(2da9d7e85a399ea438f08bb492e09ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bowl_interior_02.fbx using Guid(2da9d7e85a399ea438f08bb492e09ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c31333602afffd114caac6292eb5fe') in 0.022967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_cabinet_interior_01.fbx
+  artifactKey: Guid(4433b4d09c4c39842804a683b50d1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_cabinet_interior_01.fbx using Guid(4433b4d09c4c39842804a683b50d1437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad16b373920553884b086aa455f1b4c') in 0.045650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_basket_interior_04.fbx
+  artifactKey: Guid(e37a57e561c64d446bc0190e4b5ced17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_basket_interior_04.fbx using Guid(e37a57e561c64d446bc0190e4b5ced17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddc42105c19a40f33f9679c4b48decf') in 0.023765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bread_interior_01.fbx
+  artifactKey: Guid(9ab5a0f5b0ae4fe44ac69c088096395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bread_interior_01.fbx using Guid(9ab5a0f5b0ae4fe44ac69c088096395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8726c8025496a87e6828538503ca36b2') in 0.023614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_coin_interior_03.fbx
+  artifactKey: Guid(f9fdbfa5d2fa8b746b667cf0ba30d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_coin_interior_03.fbx using Guid(f9fdbfa5d2fa8b746b667cf0ba30d90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbd2f24cd49188175140d6bf2fef16e') in 0.021940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bucket_interior_04.fbx
+  artifactKey: Guid(f1b37080699e3c14dbbe86a0e820d320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bucket_interior_04.fbx using Guid(f1b37080699e3c14dbbe86a0e820d320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca0131cc1504b040dbc00eb7028789b') in 0.025182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bench_interior_03.fbx
+  artifactKey: Guid(a42e00169a60202409eb1bf159bd6c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_bench_interior_03.fbx using Guid(a42e00169a60202409eb1bf159bd6c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2faa0e370ef290aec682294ccf560bfd') in 0.022360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_cabinet_interior_07.fbx
+  artifactKey: Guid(cdad744ff8bfb084b92c6f760c03d2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_cabinet_interior_07.fbx using Guid(cdad744ff8bfb084b92c6f760c03d2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d82a96bc7ac57419d067aebeb882cd') in 0.021234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_birdcage_interior_02.fbx
+  artifactKey: Guid(82f25ef7d2e4cbc4caadf19506283767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_birdcage_interior_02.fbx using Guid(82f25ef7d2e4cbc4caadf19506283767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4261021182a290a2e32a264f480d1ee') in 0.040193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_coin_interior_02.fbx
+  artifactKey: Guid(39686e080be7de441949cb47dfe73716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_coin_interior_02.fbx using Guid(39686e080be7de441949cb47dfe73716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a12bc036a4ad6b2a36d1c3632f04cc0') in 0.023216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.203005 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_cup_interior_01.fbx
+  artifactKey: Guid(cb748902e730fc74c8444c86ca5b7b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_cup_interior_01.fbx using Guid(cb748902e730fc74c8444c86ca5b7b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b8e4bd782c627a8ba08800036fca79') in 0.024086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_egg_interior_01.fbx
+  artifactKey: Guid(c7885d8c8f51593468f236fd26b34b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_egg_interior_01.fbx using Guid(c7885d8c8f51593468f236fd26b34b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b798754ef7196ca70cd9e2ec026f617f') in 0.022776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_hook_interior_02.fbx
+  artifactKey: Guid(bfef50bf8bf354a41aa12a07cf437f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_hook_interior_02.fbx using Guid(bfef50bf8bf354a41aa12a07cf437f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db783d7eb859e755d90c7462399bf88') in 0.021609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_desk_interior_01.fbx
+  artifactKey: Guid(58b238d461598bc44bf6400db66e75a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_desk_interior_01.fbx using Guid(58b238d461598bc44bf6400db66e75a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048a6fb30e7ba334bf653ad0d8cabd3a') in 0.045131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_globe_interior.fbx
+  artifactKey: Guid(df80a25792f39d14c97ba73852aaad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_globe_interior.fbx using Guid(df80a25792f39d14c97ba73852aaad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580466ab32ef4af18db490833622f362') in 0.046471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_dresser_interior_02.fbx
+  artifactKey: Guid(66dced9acca34ce4f8474bc356e2b2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_dresser_interior_02.fbx using Guid(66dced9acca34ce4f8474bc356e2b2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98103159f86acbabe7bf3923b964fc89') in 0.096173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_curtainrod_interior.fbx
+  artifactKey: Guid(d50155efef1974a4b9671910b2db9e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_curtainrod_interior.fbx using Guid(d50155efef1974a4b9671910b2db9e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575dc46010a409b4d07a4c103e7d5676') in 0.021223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.233783 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_ink_interior.fbx
+  artifactKey: Guid(f69030783ffab06469417f666f358b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_ink_interior.fbx using Guid(f69030783ffab06469417f666f358b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe46c82792e2f4fe32dd548eb220311') in 0.021437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_laundry_interior.fbx
+  artifactKey: Guid(4b0db1800cab5dd49b4b122ed9c5e228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_laundry_interior.fbx using Guid(4b0db1800cab5dd49b4b122ed9c5e228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ead59acf77dad7845e8a14b7fc75cc7') in 0.021910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_nightstand_interior_01.fbx
+  artifactKey: Guid(4d69a8b383b674b47a3b77981fabec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_nightstand_interior_01.fbx using Guid(4d69a8b383b674b47a3b77981fabec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88f5f67917550bfd8c9fa41d0d85f70') in 0.031114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_pie_interior_02.fbx
+  artifactKey: Guid(8c5e9c7eecf39ef4bab674227df5a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_pie_interior_02.fbx using Guid(8c5e9c7eecf39ef4bab674227df5a56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67103b6450d8f843ec5c59b03df8b0be') in 0.024896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_plane_baverage_interior_01.fbx
+  artifactKey: Guid(3900ff95a5d64124980ea065cf5e11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_plane_baverage_interior_01.fbx using Guid(3900ff95a5d64124980ea065cf5e11ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4106d0cde618c76918ee9e290e067c') in 0.020906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_plant_interior_02.fbx
+  artifactKey: Guid(a6fcea65b8b12464e9aec1bd2d71a3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_plant_interior_02.fbx using Guid(a6fcea65b8b12464e9aec1bd2d71a3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2416e08ce68156b66662794e0e51332') in 0.021359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_plant_interior_01.fbx
+  artifactKey: Guid(43fbdd03327a18147a8b7fcacb19538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_plant_interior_01.fbx using Guid(43fbdd03327a18147a8b7fcacb19538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e69bf436c954793c957cb7f7710debb') in 0.023587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_painting_interior_06.fbx
+  artifactKey: Guid(27af71fb97e6627478d23999f9a7d718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_painting_interior_06.fbx using Guid(27af71fb97e6627478d23999f9a7d718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbedd7106d0957a9a0a6fed0ff8b46f') in 0.022883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_painting_interior_03.fbx
+  artifactKey: Guid(b8f301d9f97e7fa40b9c885ffe469d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_painting_interior_03.fbx using Guid(b8f301d9f97e7fa40b9c885ffe469d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fc90a912eef070376bbb2d2f571b9f') in 0.022146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_pan_interior.fbx
+  artifactKey: Guid(0e38ac0c61655664bbb3a6fdd21654ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_pan_interior.fbx using Guid(0e38ac0c61655664bbb3a6fdd21654ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28bcf56d4a47f93bb07fb967cfba638') in 0.023890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_mirror_interior_04.fbx
+  artifactKey: Guid(cd43c44ef8d01da45bf95bcce6864270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_mirror_interior_04.fbx using Guid(cd43c44ef8d01da45bf95bcce6864270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c70234036530eb2e8892dbab56106f6') in 0.021821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_plane_rice_interior.fbx
+  artifactKey: Guid(a12402ef918c2fc4f9d536b1a476f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_plane_rice_interior.fbx using Guid(a12402ef918c2fc4f9d536b1a476f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979bb787e690efd39c786b067ede6732') in 0.021419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_ladder_interior_02.fbx
+  artifactKey: Guid(f9db1c2d29efcef4baca5bceb2990de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_ladder_interior_02.fbx using Guid(f9db1c2d29efcef4baca5bceb2990de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dbdc169da171b7cc2bde4366ab7b15') in 0.022748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_lantern_interior_03.fbx
+  artifactKey: Guid(1b1909b61ba6bcc42af7cbc7f711efa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_lantern_interior_03.fbx using Guid(1b1909b61ba6bcc42af7cbc7f711efa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be328513711b78e4c740e8d192eae181') in 0.026161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.956041 seconds.
+  path: Assets/Fantastic Interior Pack/materials
+  artifactKey: Guid(46cbbef3f7e5e544e82b8ca5a32951b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials using Guid(46cbbef3f7e5e544e82b8ca5a32951b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07e27ba4afceb2173c3c807535ca252') in 0.006331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.067202 seconds.
+  path: Assets/Fantastic Interior Pack/2d
+  artifactKey: Guid(37b718dba790aa243a8026a40ab3e8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d using Guid(37b718dba790aa243a8026a40ab3e8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2befbdad2662b999492db2eaccd9f4f') in 0.005850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.964178 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures
+  artifactKey: Guid(656ca99909e0ab3418d7f6fb90d5780d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures using Guid(656ca99909e0ab3418d7f6fb90d5780d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5abc4c5f4a8567530f5b43dfd83d52e') in 0.005725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.554048 seconds.
+  path: Assets/Fantastic Interior Pack/3d
+  artifactKey: Guid(5d9a001f73d98464e85ff44eac2604d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d using Guid(5d9a001f73d98464e85ff44eac2604d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647059667b9a38e7ffc890c51063fd7e') in 0.007049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.465569 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_stove_interior.fbx
+  artifactKey: Guid(8bc97152e7db74443ac1ce5e8a3c1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_stove_interior.fbx using Guid(8bc97152e7db74443ac1ce5e8a3c1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3cfa49f79406270b2e9ef69fd443e7') in 0.082740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_table_interior_05.fbx
+  artifactKey: Guid(56cbfe0b7b981ec4697c118d6de7e6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_table_interior_05.fbx using Guid(56cbfe0b7b981ec4697c118d6de7e6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d9cddb82da5fb4ffe3d2d73ca91806') in 0.025463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_table_interior_02.fbx
+  artifactKey: Guid(4d8d6d7e65b9cc740bc3add14b8466c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_table_interior_02.fbx using Guid(4d8d6d7e65b9cc740bc3add14b8466c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741d09475f921428ed9e2dbdfaef917e') in 0.031186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_table_interior_06.fbx
+  artifactKey: Guid(7de831843f52b73408a730c146bb4040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_table_interior_06.fbx using Guid(7de831843f52b73408a730c146bb4040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b98f5b85579c083356562833375cb94') in 0.026804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_tablecloth_interior.fbx
+  artifactKey: Guid(fcf2ea5300b4ae0449049731f5108b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/SM_PROP_tablecloth_interior.fbx using Guid(fcf2ea5300b4ae0449049731f5108b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8f4d95ef7f48d73005fc15e10e0406') in 0.034609 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

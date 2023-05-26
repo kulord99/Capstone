@@ -15,7 +15,7 @@ C:/Users/user/CapstoneDesign/Capstone/Capstone_Unity_Test
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-58835
+60595
 Successfully changed project path to: C:/Users/user/CapstoneDesign/Capstone/Capstone_Unity_Test
 C:/Users/user/CapstoneDesign/Capstone/Capstone_Unity_Test
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/user/CapstoneDesign/Capstone/Capstone_Unity_Test
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16320] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 982432090 [EditorId] 982432090 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TFMLG6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10496] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 3111909247 [EditorId] 3111909247 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TFMLG6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16320] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 982432090 [EditorId] 982432090 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TFMLG6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10496] Host "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 3111909247 [EditorId] 3111909247 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TFMLG6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 120.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 111.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007364 seconds.
+Registered in 0.008920 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 96.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 105.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.582 seconds
+- Completed reload, in  0.745 seconds
 Domain Reload Profiling:
-	ReloadAssembly (583ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (98ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (419ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (535ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (258ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (335ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
+				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006472 seconds.
+Registered in 0.008901 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\CapstoneDesign\Capstone\Capstone_Unity_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\CapstoneDesign\Capstone\Capstone_Unity_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 98.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 160.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
+- Completed reload, in  1.482 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1123ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (1483ms)
+		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (923ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1235ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
+			SetupTypeCache (381ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (500ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (647ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (161ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4892 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 34 unused Assets / (0.8 MB). Loaded Objects now: 5347.
 Memory consumption went from 198.2 MB to 197.4 MB.
-Total: 3.150000 ms (FindLiveObjects: 0.392200 ms CreateObjectMapping: 0.264500 ms MarkObjects: 2.206200 ms  DeleteObjects: 0.286400 ms)
+Total: 4.797000 ms (FindLiveObjects: 0.710500 ms CreateObjectMapping: 0.672600 ms MarkObjects: 3.020500 ms  DeleteObjects: 0.391900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,64 +166,437 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 440498.723604 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfd0651c47f37be10cc6d6aeac0e6ff') in 0.326229 seconds 
+  Time since last request: 440893.445596 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7670aa820e8a70558cbfe55e4ac4121') in 0.345137 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006669 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\CapstoneDesign\Capstone\Capstone_Unity_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\CapstoneDesign\Capstone\Capstone_Unity_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.185 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1185ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (949ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (412ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (84ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4761 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (0.7 MB). Loaded Objects now: 5436.
-Memory consumption went from 195.5 MB to 194.8 MB.
-Total: 5.923600 ms (FindLiveObjects: 0.822100 ms CreateObjectMapping: 1.041800 ms MarkObjects: 3.694000 ms  DeleteObjects: 0.364700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c087e873d711ac9c4e81e6a79d04c2c') in 0.036232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f81f5c3473a2fb1735fc2b011e04705') in 0.040825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab
+  artifactKey: Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab using Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0dde9ff5b3b9a358525274aa86d9e8') in 0.036901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275dc765f857ce2c212cc980a38bc6c4') in 0.134933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MNIGames/BoardGames3DPack/Shared/Artworks/Materials/Plane1x1.mat
+  artifactKey: Guid(c7c04ba0e7b74b84a9b0e015ca4d2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MNIGames/BoardGames3DPack/Shared/Artworks/Materials/Plane1x1.mat using Guid(c7c04ba0e7b74b84a9b0e015ca4d2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf8f54dcf764261e1502efe6ea7c69f') in 0.034731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7659c3d2539948e669465418e5b382') in 0.053571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe3a26754bd1088d6a6af8f0c4be1b2') in 0.518864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MNIGames/BoardGames3DPack/Shared/Resources/Square.prefab
+  artifactKey: Guid(e2e8e5399bdd2a1489e0ec89a26fb506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MNIGames/BoardGames3DPack/Shared/Resources/Square.prefab using Guid(e2e8e5399bdd2a1489e0ec89a26fb506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4c57ab35d133d62f274a1996096704') in 0.065841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd9968e2062c8c1faa79377a8710164') in 0.018801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab
+  artifactKey: Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab using Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23f01a8634ba365deafb91cc9946afa') in 0.011504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4583cd0eaaea89a01af25e5cd252efd') in 0.019218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggle.prefab
+  artifactKey: Guid(ce347ad101f41ee4ab5c3fbc0ea447db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggle.prefab using Guid(ce347ad101f41ee4ab5c3fbc0ea447db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27c9532fa591d5ddf63ac7c6ad71998') in 0.017563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7866304de10ae935e04333f6e22b3f5') in 0.040715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bcb9c5945942becd80e431d8608bc3') in 0.024073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332f1c923029bb3a6e3e19e90f623023') in 0.028451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab
+  artifactKey: Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab using Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dd75381679c3ca0e6f8a245132bb17') in 0.011117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Chess/Prefabs/Pieces/Queen.prefab
+  artifactKey: Guid(227ec2650192ef24db8f3ca213650f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chess/Prefabs/Pieces/Queen.prefab using Guid(227ec2650192ef24db8f3ca213650f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc0b36857001145a5b77da76ccc9d48') in 0.102591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab
+  artifactKey: Guid(cf6cbdd672089a84796e55a21fed1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources/DebugUICanvas.prefab using Guid(cf6cbdd672089a84796e55a21fed1cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa88ed8ae93ce12afd840ea36d9159d') in 0.053875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2103d26d91b60682b33691a006082030') in 0.029539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c2f73e9ac33a0e3fda9c431ddbb985') in 0.041583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.917381 seconds.
+  path: Assets/TCG_Card_Design/grey_wood/card_title/card_title_grey_wood.PSD
+  artifactKey: Guid(5a404914602c881459d455466034474a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TCG_Card_Design/grey_wood/card_title/card_title_grey_wood.PSD using Guid(5a404914602c881459d455466034474a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760c76163b2e0d0b8879f8e0ae242987') in 0.161738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TCG_Card_Design/grey_wood/card_title/frame_grey_wood.png
+  artifactKey: Guid(41ee302c57716544ea65faa0e865e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TCG_Card_Design/grey_wood/card_title/frame_grey_wood.png using Guid(41ee302c57716544ea65faa0e865e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05cbb7825a301390d4b301bcd301392') in 0.153928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.996418 seconds.
+  path: Assets/TCG_Card_Design/grey_wood/back/back_grey_wood.PSD
+  artifactKey: Guid(b199ea944d3c2bd43bd14c082be3848d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TCG_Card_Design/grey_wood/back/back_grey_wood.PSD using Guid(b199ea944d3c2bd43bd14c082be3848d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c254c166eae02cdf014ffac524fdc7') in 0.138511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.663221 seconds.
+  path: Assets/TCG_Card_Design/wooden_style/back/back_wood.PSD
+  artifactKey: Guid(1264f01b18cdceb43818d75124248c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TCG_Card_Design/wooden_style/back/back_wood.PSD using Guid(1264f01b18cdceb43818d75124248c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b271c987097873f62a0ab1a181fac8') in 0.167416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.452015 seconds.
+  path: Assets/TCG_Card_Design/wooden_style/card_title/card_title_wood.PSD
+  artifactKey: Guid(f763e77602cbda3489f858cf946dcc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TCG_Card_Design/wooden_style/card_title/card_title_wood.PSD using Guid(f763e77602cbda3489f858cf946dcc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ade624ed2a20acdd3c2739b43de4124') in 0.167580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1323.610015 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Base/MOD_Base_02_straight_large_02.fbx
+  artifactKey: Guid(f71d5e99909c8e54e87acf3131131ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Base/MOD_Base_02_straight_large_02.fbx using Guid(f71d5e99909c8e54e87acf3131131ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad9d4f5f4b223c0a0ff20042bd38c85') in 0.075716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Base/MOD_Base_02_straight_med.fbx
+  artifactKey: Guid(d9da10ce69136354b992859596ecab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Base/MOD_Base_02_straight_med.fbx using Guid(d9da10ce69136354b992859596ecab3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cec0a1e1e1f36093ffb649d0fa24498') in 0.024605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Base/MOD_Base_02_straight_small.fbx
+  artifactKey: Guid(8167b35e7159cbc45b8d16fa96c0e418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Base/MOD_Base_02_straight_small.fbx using Guid(8167b35e7159cbc45b8d16fa96c0e418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202ece43ebeafc52e8a398c52d089288') in 0.024022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Base/MOD_Base_02_straight_large_02_hole.fbx
+  artifactKey: Guid(587590f47ad99a240a361c5c44cbdcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Base/MOD_Base_02_straight_large_02_hole.fbx using Guid(587590f47ad99a240a361c5c44cbdcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890bdb5c92d81a9b0d1a1ab3dc9bdf6e') in 0.024943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.901159 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_Bricks_01_v1_N.png
+  artifactKey: Guid(94af852964f413e40933bafe62ddf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_Bricks_01_v1_N.png using Guid(94af852964f413e40933bafe62ddf6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec9c325b12bd5c2d8a47a5251071f32') in 0.031260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_01_v1_BC.png
+  artifactKey: Guid(623e3edb7db1c7941bbf25866da1e36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_01_v1_BC.png using Guid(623e3edb7db1c7941bbf25866da1e36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8377bf329e549f6fef1c7cfadfaa5a') in 0.019970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_WallPainted_v1_MTSM.png
+  artifactKey: Guid(165a5c742af46ee41a94aecd3eb298a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_WallPainted_v1_MTSM.png using Guid(165a5c742af46ee41a94aecd3eb298a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0d8c71df6bf7d4e46f3ce60d7429a3') in 0.018344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_FX_sprite_steam_interior_BC.png
+  artifactKey: Guid(d8ebf80385dff764eb347b58e3559f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_FX_sprite_steam_interior_BC.png using Guid(d8ebf80385dff764eb347b58e3559f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7330baf5860ef9668755c002b8e3679') in 0.013961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_02_v1_BC.png
+  artifactKey: Guid(f491c9004d6c31144adbc65c62cbebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_02_v1_BC.png using Guid(f491c9004d6c31144adbc65c62cbebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bcab7b7c7478f6fa8877ddf5a207fe') in 0.017703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_PROP_items_interior_03_BC.png
+  artifactKey: Guid(cac976e9c6a389f43b3c3a9d668de665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_PROP_items_interior_03_BC.png using Guid(cac976e9c6a389f43b3c3a9d668de665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac894687a5c8ccc3cac1ceacc0b53669') in 0.016899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_WoodGeneric_v1_MTSM.png
+  artifactKey: Guid(c93248a7c48ad7d4c903cb55c4cde220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_WoodGeneric_v1_MTSM.png using Guid(c93248a7c48ad7d4c903cb55c4cde220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187dd910f4491ef09066c2a244028ab3') in 0.028567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_PROP_wood_planks_interior_01_BC.png
+  artifactKey: Guid(35df107a7079e294ca897f5d8285a2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_PROP_wood_planks_interior_01_BC.png using Guid(35df107a7079e294ca897f5d8285a2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d605359d6b37fb8c809c4f37367a369') in 0.019810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_StoneFloor_BC.png
+  artifactKey: Guid(0bf0c1694440490479ddc541d85a898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_StoneFloor_BC.png using Guid(0bf0c1694440490479ddc541d85a898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0bcd0d71d60d3c88a150dc47c9242a') in 0.013749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_PROP_fabrics_interior_BC.png
+  artifactKey: Guid(f777a1588ba47d140b950d8fb94c78ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_PROP_fabrics_interior_BC.png using Guid(f777a1588ba47d140b950d8fb94c78ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471df2d93d8ab341615a0671847daa20') in 0.015097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_02_v2_BC.png
+  artifactKey: Guid(9d98e1549991f684ba9eca9d5ef2f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_02_v2_BC.png using Guid(9d98e1549991f684ba9eca9d5ef2f072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e122fd630c9af2b5c25c2398ed51b3f5') in 0.016504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_gateway_BC.png
+  artifactKey: Guid(96897e9dff48f4e4eaee00e56e44dc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_gateway_BC.png using Guid(96897e9dff48f4e4eaee00e56e44dc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c3ccc8ccad7a9bf81617bf599f010e') in 0.016241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_01_v1_MTSM.png
+  artifactKey: Guid(7bea788fe302d53438db6dea948ea4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksShort_01_v1_MTSM.png using Guid(7bea788fe302d53438db6dea948ea4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174df3c252b4f42e592e5eb68f15cddf') in 0.017279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_Bricks_01_v2_MTSM.png
+  artifactKey: Guid(22c5cc34d4a30b74fabec1d2f9d158e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_Bricks_01_v2_MTSM.png using Guid(22c5cc34d4a30b74fabec1d2f9d158e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7248021b559acb058e5988bf432b432b') in 0.016941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_01_N.png
+  artifactKey: Guid(c1b3a333d698d6c42a55afc51f7ba593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_ENV_MOD_Interior_PlanksLong_01_N.png using Guid(c1b3a333d698d6c42a55afc51f7ba593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f714dae07159afe8d383aa1492858a') in 0.019194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantastic Interior Pack/2d/textures/T_FX_glow_interior_BC.png
+  artifactKey: Guid(eade6af49accd4e4a9571c2d7f70bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/2d/textures/T_FX_glow_interior_BC.png using Guid(eade6af49accd4e4a9571c2d7f70bba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27a80df8c8d8fb9918f3b62ace0db18') in 0.012128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.817676 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_E_straight_02_Collision.fbx
+  artifactKey: Guid(bd572242dc6b6ec4fbe950da5674852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_E_straight_02_Collision.fbx using Guid(bd572242dc6b6ec4fbe950da5674852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba55d3c17274a31969653d8d0913ee') in 0.017084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_WallCover_01_half_Collision.fbx
+  artifactKey: Guid(33e9cbc0e93cee44b8608194d1e0e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_WallCover_01_half_Collision.fbx using Guid(33e9cbc0e93cee44b8608194d1e0e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6199653119b79a1d76203f5e1c01652') in 0.018664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_WallCover_01_Collision.fbx
+  artifactKey: Guid(88b4208ac0ca3cd4fbc84a54620d5cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_WallCover_01_Collision.fbx using Guid(88b4208ac0ca3cd4fbc84a54620d5cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446f984b2bf74a9dfde850cdf919d2bf') in 0.016986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_Railing_02_Collision.fbx
+  artifactKey: Guid(2258c30810de946489aad5f492d50016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Collision/MOD_Stairs_02_Railing_02_Collision.fbx using Guid(2258c30810de946489aad5f492d50016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce8f352cad1cf6dbfa757b25d12c125') in 0.019262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.807382 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Column/MOD_Column_02_med_02.fbx
+  artifactKey: Guid(4197c504c2aef5b40881fc12df80d691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Column/MOD_Column_02_med_02.fbx using Guid(4197c504c2aef5b40881fc12df80d691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9c965aa5eeef1b4e6362436e12f4d8') in 0.036228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Column/MOD_Column_02_med_04_half.fbx
+  artifactKey: Guid(be6617ea055814747ade20c9a5ffddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Column/MOD_Column_02_med_04_half.fbx using Guid(be6617ea055814747ade20c9a5ffddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c4efdaa40d902cf961582b0649a09c') in 0.044770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.232405 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Floor/MOD_Floor_02_E_straight_tiny.fbx
+  artifactKey: Guid(8eccec632f997334386bf571672127cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Floor/MOD_Floor_02_E_straight_tiny.fbx using Guid(8eccec632f997334386bf571672127cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8484abefd902b22ac9db69d25a18acfc') in 0.033946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantastic Interior Pack/3d/ENV/Floor/MOD_Floor_02_O_straight_tiny.fbx
+  artifactKey: Guid(7cb0d771478d59f478c52da08d2a2cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/ENV/Floor/MOD_Floor_02_O_straight_tiny.fbx using Guid(7cb0d771478d59f478c52da08d2a2cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fc117344d561141aa41e0d0fc934f3') in 0.039218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.215880 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/Collision/SM_PROP_fireplace_interior_Collision.fbx
+  artifactKey: Guid(d55f7514bea19884aa084a87a825c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/Collision/SM_PROP_fireplace_interior_Collision.fbx using Guid(d55f7514bea19884aa084a87a825c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0339c5c045173c3c9ede7e0f0f99ef93') in 0.020122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantastic Interior Pack/3d/PROPS/Collision/SM_PROP_paravan_interior_Collision.fbx
+  artifactKey: Guid(f02d1712b3545b4458d81c2f2beaf35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/3d/PROPS/Collision/SM_PROP_paravan_interior_Collision.fbx using Guid(f02d1712b3545b4458d81c2f2beaf35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6224e5cd29033d8ff6cfa5ac36274fa9') in 0.045857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.734997 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_ENV_MOD_gateway_interior_01.mat
+  artifactKey: Guid(389909693d85b244492c74e05fd92dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_ENV_MOD_gateway_interior_01.mat using Guid(389909693d85b244492c74e05fd92dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb58c226d2c09c67dcc87d8e50412ee') in 0.082463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksShort_01_v1.mat
+  artifactKey: Guid(bfe63c70d3432f14abb7156692fa61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksShort_01_v1.mat using Guid(bfe63c70d3432f14abb7156692fa61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c634cb7a1ee0f4a673612644131ddaf1') in 0.024464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_PROP_weapon_interior.mat
+  artifactKey: Guid(dbf03010250b60849b09d68adaa5f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_PROP_weapon_interior.mat using Guid(dbf03010250b60849b09d68adaa5f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a40697b3d9eba32c4b845790d35963c') in 0.018525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksLong_01_v2.mat
+  artifactKey: Guid(0e3e678aed2c52242a9f8836ebf05e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksLong_01_v2.mat using Guid(0e3e678aed2c52242a9f8836ebf05e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b2d9a861327184702a12cd0e3e46a') in 0.024955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_PROP_items_interior_02.mat
+  artifactKey: Guid(cf7a575171fe87a4b84365e413c285da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_PROP_items_interior_02.mat using Guid(cf7a575171fe87a4b84365e413c285da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005b1da8650fa2339f3ae8b0b8f68582') in 0.017104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksShort_02_v1.mat
+  artifactKey: Guid(5bf2bdb4f95b3604db7a7c8db323097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksShort_02_v1.mat using Guid(5bf2bdb4f95b3604db7a7c8db323097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4308c73c3d82ef120d6a2dd84cf08414') in 0.025264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_PROP_items_interior_03.mat
+  artifactKey: Guid(fa7a2b40f9ce2024eafffd7306bffeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_PROP_items_interior_03.mat using Guid(fa7a2b40f9ce2024eafffd7306bffeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d529538ead1ddb033af7451deba104') in 0.016875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_PROP_fabrics_interior.mat
+  artifactKey: Guid(cb2a325f1ac75a444b8d007b58e06fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_PROP_fabrics_interior.mat using Guid(cb2a325f1ac75a444b8d007b58e06fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de5bfeaf6fd0f87baacf6aef2abe0ba') in 0.017003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_Bricks_01_v1.mat
+  artifactKey: Guid(1aaa002757d8956428829d363971c28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_Bricks_01_v1.mat using Guid(1aaa002757d8956428829d363971c28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8aa5f39abf9b8d9299f577a1a04bf3') in 0.024415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_PROP_frames_interior.mat
+  artifactKey: Guid(b0d3338b356594c4d984922551af9cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_PROP_frames_interior.mat using Guid(b0d3338b356594c4d984922551af9cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2b19d7a6cc11943007bd627e78212c') in 0.019474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_PROP_metal_interior.mat
+  artifactKey: Guid(721502993cc76074e83ece30feb95ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_PROP_metal_interior.mat using Guid(721502993cc76074e83ece30feb95ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e253bdfde3b28523c84d11c827ab1a4') in 0.021933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksLong_02_v1.mat
+  artifactKey: Guid(4ff94cb1e06273d4dbaf54906d2164fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/materials/M_ENV_MOD_Interior_PlanksLong_02_v1.mat using Guid(4ff94cb1e06273d4dbaf54906d2164fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc889d877ea3a8c998ee74aec4054b8') in 0.025936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.998410 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/ENV/Railing/P_MOD_Railing_02_straight_half.prefab
+  artifactKey: Guid(f265c190fd43b954aae23b2cc724e479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/ENV/Railing/P_MOD_Railing_02_straight_half.prefab using Guid(f265c190fd43b954aae23b2cc724e479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59c728fb0956da9e728a39274739e6c') in 0.024501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.144155 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/FX/P_FX_fire_v3_interior.prefab
+  artifactKey: Guid(dfd705a8fc5cca54396e2e55a14e4a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/FX/P_FX_fire_v3_interior.prefab using Guid(dfd705a8fc5cca54396e2e55a14e4a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b3d2c59262c031b0bd1e4b8b22d0eb') in 0.098269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.572578 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/PROPS/Tables/P_PROP_table_interior_02.prefab
+  artifactKey: Guid(6448b9e7bf31f9141ae8658787d24dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/PROPS/Tables/P_PROP_table_interior_02.prefab using Guid(6448b9e7bf31f9141ae8658787d24dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b003d27021f90635be33c2983c16667b') in 0.019274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantastic Interior Pack/prefabs/PROPS/Tables/P_PROP_table_interior_08.prefab
+  artifactKey: Guid(d2238e78b31f0954cbf260b29404b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantastic Interior Pack/prefabs/PROPS/Tables/P_PROP_table_interior_08.prefab using Guid(d2238e78b31f0954cbf260b29404b70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f26cc8b368ac6ac18a43de117dfaa32') in 0.024743 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
